@@ -1,0 +1,39 @@
+/*
+ * Globals
+
+ */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  transition: 0.3s;
+  color: rgb(0, 0, 0);
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.btn-secondary:hover {
+  transform: scale(1.1);
+}
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  font-family: "Press Start 2P", cursive;
+  background: rgb(255, 70, 85);
+}
+
+.cover-container {
+  max-width: 42em;
+}

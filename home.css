@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Press Start 2P", cursive;
+  background: rgb(228, 228, 228);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+header {
+  background-color: rgb(255, 70, 85);
+}
+
+p {
+  color: rgb(255, 70, 85);
+}
+
+.btn {
+  background: rgb(255, 70, 85);
+}
+
+footer {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0;
+  margin-top: 15%;
+  margin-left: 10px;
+}
